@@ -26,8 +26,7 @@
     <h1>Videos</h1>
     <p>Videos tutoriales</p>
     </div>  
-    <section class="Video" id="Videos">
-        
+    <section class="Video" >
             <div>
             <a href="https://www.youtube.com/embed/zICR_WCRSZI" target="_blank"><img src="Imagenes/Video/PHP.jpg" ></a><br>
             <a href="https://www.youtube.com/embed/zICR_WCRSZI" target="_blank">Subir un proyecto hecho en PHP puro en el servidor WebTIS</a>
@@ -42,7 +41,7 @@
                 <a href="https://www.youtube.com/embed/qQaeb1F0Z8k" target="_blank"><img src="Imagenes/Video/Bootstrap.jpg" ></a><br>
                 <a href="https://www.youtube.com/embed/qQaeb1F0Z8k" target="_blank">Como subir un proyecto hecho en Laravel al servidor WebTIS</a>
                 <p>En el presente video se muestra como subir un proyecto hecho en Laravel al servidor Webtis.</p>
-            </div><br>
+            </div>
     </section>
     <section class="Video">
         <div>
@@ -61,7 +60,6 @@
             <p>En el presente videotutorial mostramos como hacer el deploy de una aplicación web hecho en Angular y Laravel en el servidor WEBTIS, para la materia de Ingeniería de Software.</p>
         </div>
     </section>
-
 <footer class="Contacto" id="Contactos">
     <div>
     <h4>Ubicación:</h4>
@@ -73,7 +71,17 @@
     </div>
     <div>
     <label for="comentarios">Sugerencias</label><br>
-    <textarea name="Comentarios" id="Comentarios" cols="100" rows="20" ></textarea>
+    <div>
+        <div class="user"><br>
+            <label for="text">Usuario</label>
+            <input type="text" name="user" id="user" placeholder="Ingresa usuario" required>
+        
+    </div><div class="user">
+        <br>
+        <label for="text">Correo</label>
+        <input type="email" name="user" id="user" placeholder="Ingresa su correo" required>
+    </div><br>
+    <textarea name="Comentarios" id="Comentarios" cols="60" rows="10" ></textarea>
     <button type="submit">Enviar</button>
     </div><br>
 </footer>
